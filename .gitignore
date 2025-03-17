@@ -1,0 +1,45 @@
+# 🛑 تجاهل node_modules (مهم جدًا!)
+node_modules/
+
+# 🛑 تجاهل مجلد البناء في Vite أو React
+dist/
+build/
+
+# 🛑 تجاهل الملفات الحساسة (بيئة التطوير)
+.env
+.env.local
+.env.development
+.env.production
+
+# 🛑 تجاهل إعدادات المحررات (VS Code, WebStorm)
+.vscode/
+.idea/
+
+# 🛑 تجاهل ملفات السجلات والـ cache
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
